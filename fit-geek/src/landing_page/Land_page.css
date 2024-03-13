@@ -1,0 +1,371 @@
+/* landing_page/Land_page.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(90deg, rgba(0, 169, 255, 1) 6%, rgba(137, 207, 243, 1) 44%, rgba(160, 233, 255, 1) 100%);
+}
+
+.upper_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.brand_name h1 {
+  margin: 0;
+}
+
+.user_verification {
+  display: flex;
+  align-items: center;
+}
+
+.log_in,
+.sign_up {
+  margin-left: 10px;
+}
+
+.btn_log_in,
+.btn_sign_up {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.btn_log_in:hover,
+.btn_sign_up:hover {
+  box-shadow: 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn_log_in:focus,
+.btn_sign_up:focus {
+  border: 2px solid grey;
+}
+
+.container_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typography {
+  margin: 3rem;
+}
+
+.svg_img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 20px 30px 15px rgba(0, 0, 0, 0.192);
+  border-radius: 100px;
+}
+
+.mini_typography,
+.main_typography,
+.lower_typography {
+  margin-top: 1rem;
+}
+
+.mini_typography {
+  font-size: 1rem;
+  opacity: 60%;
+}
+
+.main_typography {
+  font-size: 4rem;
+  font-family: 'Kalnia', serif;
+  text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lower_typography {
+  font-size: 1.2rem;
+  opacity: 70%;
+}
+
+.btn_section button {
+  margin-top: 2.5rem;
+  padding: 15px 3rem;
+  font-size: 1.2rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn_section button:hover {
+  background-color: #ffe677;
+}
+
+@media only screen and (max-width: 900px) {
+  .container_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* What to eat section */
+
+.what_to_eat {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151824;
+}
+
+.what_to_eat h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.what_to_eat h3 {
+  margin-top: 2.5rem;
+  color: white;
+}
+
+.what_to_eat a {
+  margin-top: 2.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .what_to_eat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    border-radius: 3rem;
+  }
+
+  .what_to_eat h1 {
+    font-size: 1.9rem;
+    margin-left: 1.2rem;
+  }
+
+  .what_to_eat h3 {
+    font-size: 1rem;
+    margin-left: 1.2rem;
+  }
+}
+
+/* Motivation section */
+
+.heading_motivation {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading_motivation h2 {
+  font-size: 3rem;
+  opacity: 80%;
+}
+
+.heading_motivation h4 {
+  opacity: 60%;
+}
+
+.container_2 {
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  padding-top: 3rem;
+  margin: 0;
+  margin-left: 2.5rem;
+  max-width: 450px;
+  text-align: center;
+}
+
+.nxt_to_slider_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.nxt_to_slider_img img {
+  width: 400px;
+  height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .container_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nxt_to_slider_img img {
+    width: 20rem;
+    height: auto;
+  }
+
+  .slider {
+    padding-top: 3rem;
+    margin: 0 auto;
+    max-width: 22rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .heading_motivation h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Product section */
+
+.merchandise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(0, 169, 255, 1) 6%, rgba(137, 207, 243, 1) 44%, rgba(160, 233, 255, 1) 100%);
+  border-radius: 5rem;
+  margin: 2rem;
+}
+
+.headings {
+  max-width: 50vh;
+  margin-left: 1rem;
+}
+
+.buy_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  color: #3498db;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.buy_btn:hover {
+  background-color: #3498db;
+  color: #ffffff;
+  border-color: #2070a0;
+}
+
+.product_img img {
+  max-width: 30rem;
+}
+
+
+/* from here we'll style for the community section  */
+
+.container_community{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_community{
+  max-width: 50vh;
+  margin-left: 2.5rem;
+}
+
+
+/* Footer section */
+
+.container_footer {
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  background-color: #151824;
+}
+
+.bind_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.products,
+.resources,
+.company,
+.website_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .bind_content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .contents,
+  .company,
+  .resources,
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company,
+  .resources,
+  .products {
+    padding: 1rem;
+  }
+
+  .website_name {
+    padding-top: 1rem;
+  }
+}
+
+

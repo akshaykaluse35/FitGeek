@@ -1,0 +1,16 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: calc((100% - 4rem) / 3); /* Adjust the number based on the number of cards you want in a row */
+    max-width: 23rem; /* Set maximum width to maintain readability */
+    margin: 1rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 25rem;
+    background-color: black;
+    color: white;
+    padding-top: 5rem;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer-content h2{
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.copyright{
+    margin-bottom: 2rem;
+}
+

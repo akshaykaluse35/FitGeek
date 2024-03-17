@@ -5,6 +5,8 @@ import '../../styles/meditation.css';
 import { AudioPlayer } from '../../components/AudioPlayer';
 import NavbarMH from './NavbarMH';
 import cardImg from '../../images/med-card-1.png';
+// import medBGimage from '../../images/meditation-bg-image.png'
+import Footer from '../../footer/Footer';
 const Meditation = () => {
   return (
     <>
@@ -45,40 +47,54 @@ const Meditation = () => {
       </section>
 
       <section>
-          <div className="container-info">
-              <div className="card-info-with-image"></div>
-          </div>
+
       </section>
 
-      {/* <section>
+      <section>
         <div class="cards-container">
           <div class="card">
-            <img src={cardImg} alt="" srcset="" height='300px' width='300px' />
+            <img src={cardImg} alt="" srcset="" height="300px" width="300px" />
             <h1>This is card</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quisquam.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              quisquam.
+            </p>
           </div>
           <div class="card">
-            <img src={cardImg} alt="" srcset="" height='300px' width='300px' />
+            <img src={cardImg} alt="" srcset="" height="300px" width="300px" />
             <h1>This is card 2</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quisquam.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              quisquam.
+            </p>
           </div>
           <div class="card">
-            <img src={cardImg} alt="" srcset="" height='300px' width='300px' />
+            <img src={cardImg} alt="" srcset="" height="300px" width="300px" />
             <h1>This is card 3</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quisquam.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              quisquam.
+            </p>
           </div>
           <div class="card">
-            <img src={cardImg} alt="" srcset="" height='300px' width='300px' />
+            <img src={cardImg} alt="" srcset="" height="300px" width="300px" />
             <h1>This is card 4</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quisquam.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              quisquam.
+            </p>
           </div>
           <div class="card">
-            <img src={cardImg} alt="" srcset="" height='300px' width='300px' />
+            <img src={cardImg} alt="" srcset="" height="300px" width="300px" />
             <h1>This is card 5</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quisquam.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              quisquam.
+            </p>
           </div>
         </div>
-      </section> */}
+      </section>
+      <Footer/>
     </>
   );
 }

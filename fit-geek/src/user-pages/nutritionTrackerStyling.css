@@ -162,7 +162,12 @@
     align-items: center;
     flex-direction: row;
     padding: 0 18rem 0;
+    background-image: url('../images/meditation-bg-image.png');
+    background-size: cover; 
+    background-position: center; /* Optional: Center the background image */
+    height: 100vh;
   }
+
 
   .med-info-container{
     display: flex;

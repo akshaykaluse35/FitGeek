@@ -1,27 +1,34 @@
-.footer-container{
+.footer-container {
+    /* position: fixed; Fixed position to stick at the bottom */
+    bottom: 0; /* Position at the bottom of the viewport */
+    left: 0; /* Align to the left side of the viewport */
+    width: 100%; /* Occupy the full width of the viewport */
+    background-color: black;
+    color: white;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    /* z-index: 1000; Ensure the footer is above other content */
+    /* Your existing styles */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 25rem;
-    background-color: black;
-    color: white;
-    padding-top: 5rem;
 }
 
-.footer-content{
+.footer-content {
+    /* Your existing styles */
     display: flex;
     flex-direction: row;
-    
 }
 
-.footer-content h2{
+.footer-content h2 {
+    /* Your existing styles */
     padding: 2rem;
     cursor: pointer;
 }
 
-.copyright{
+.copyright {
+    /* Your existing styles */
     margin-bottom: 2rem;
 }
-

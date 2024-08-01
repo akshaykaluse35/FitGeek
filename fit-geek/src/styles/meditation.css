@@ -4,13 +4,78 @@
     justify-content: center;
 }
 
-.card {
+.card-meditation-new {
     width: calc((100% - 4rem) / 3); /* Adjust the number based on the number of cards you want in a row */
     max-width: 23rem; /* Set maximum width to maintain readability */
-    margin: 1rem;
+    margin: 2rem;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
+.link-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: antiquewhite; */
+    margin: 5rem;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+
+
+
+  /* from this we will write css for meditation page  */
+
+  .med-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 18rem 0;
+    background-image: url('../images/meditation-bg-image.png');
+    background-size: cover; 
+    background-position: center; /* Optional: Center the background image */
+    height: 100vh;
+  }
+
+
+  .med-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .med-info-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .med-info-audio-container{
+    margin: 20px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .med-info-audio-container audio {
+    /* You can also style the audio element within the ReactAudioPlayer */
+    width: 100%;
+  }

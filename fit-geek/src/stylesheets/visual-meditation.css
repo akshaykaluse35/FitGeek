@@ -1,0 +1,26 @@
+
+.med-type-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.med-type-img img{
+    max-width: 900px;
+    height: auto;
+}
+
+.med-type-getting-started{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.start-with-the-basics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -12,6 +12,41 @@ const userSchema = new mongoose.Schema({
         required: true,
     },
 
+    weight:{
+        type: String,
+        required: true,
+    },
+
+    height:{
+        type: String,
+        required: true,
+    },
+
+    gender:{
+        type: String,
+        required: true,
+    },
+
+    age:{
+        type: String,
+        required: true,
+    },
+
+    activity_level:{
+        type: String,
+        required: true,
+    },
+
+    deitary_preference:{
+        type: String,
+        required: true,
+    },
+
+    health_goals:{
+        type: String,
+        required: true,
+    },
+
     phone:{
         type: String,
         required: true,
@@ -39,7 +74,7 @@ userSchema.methods.generateToken = async function (){
             },
                 process.env.JWT_SECRET_KEY,
             {
-                    expiresIn: "30d",
+                    expiresIn: "50d",
             }                    
         )
     } catch (error) {
